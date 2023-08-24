@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://use.typekit.net/jgj2caq.css");
+:root {
+  --jakarta: "Plus Jakarta Sans", sans-serif;
+  --ivy-headline: "ivypresto-headline", serif;
+  --claro: #FCEED2;
+  --negro: #222;
+  --verde: #42534F;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-size: 1.1rem;
+  font-family: var(--messina);
+  color: var(--black);
+  line-height: 1.5rem;
+  background-color: var(--claro);
+  width: 100%;
+}
+
+main {
+  background-image: url(../assets/img/paises.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: auto 600px;
+}
+
+#contador {
+  display: block;
+  color: var(--verde);
+}
+#contador h3 {
+  font-family: var(--jakarta);
+  font-size: 2rem;
+  font-weight: 700;
+}
+#contador h4 {
+  font-family: var(--jakarta);
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.titulo {
+  font-family: var(--ivy-headline);
+  text-transform: uppercase;
+  color: var(--verde);
+  font-weight: 100;
+  font-size: 1.65rem;
+}
+
+.texto {
+  font-family: var(--jakarta);
+  color: var(--verde);
+  font-weight: 500;
+  font-size: 1rem;
+  text-wrap: balance;
+}
+.texto span {
+  display: block;
+  font-family: var(--ivy-headline);
+  font-size: 3rem;
+  font-weight: 100;
+  font-style: italic;
+  line-height: 100%;
+}
+
+.footer {
+  font-family: var(--jakarta);
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--verde);
+}
+
+#contador .countdown div {
+  text-align: center;
+  border: 1px solid #42534F;
+  border-radius: 8px;
+  margin: 10px 10px;
+  width: 100px;
+  padding: 15px 0;
+}
+
+@media (max-width: 575px) {
+  #header .countdown div {
+    width: 70px;
+    padding: 10px 0;
+    margin: 10px 8px;
+  }
+  #header .countdown div h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  #header .countdown div h4 {
+    font-size: 14px;
+    font-weight: 500;
+  }
+}/*# sourceMappingURL=tnap.css.map */

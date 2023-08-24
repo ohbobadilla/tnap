@@ -5,1266 +5,138 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Desplazamiento climático: la migración que no vemos | N+ Focus</title>
-  <meta name="robots" content="index, follow" />
-  <!--SEO-->
-  <meta name="description"
-    content="Cada vez más mexicanos abandonan su hogar debido a la crisis climática. Las temperaturas se incrementan, la lluvia escasea y la sequía es más fuerte.">
-  <meta name="author" content="N+ Focus, Saúl Sánchez Lemus y Alberto Pradilla">
-  <meta property="og:image" content="https://investigaciones.nmas.com.mx/desplazamiento-climatico-la-migracion-que-no-vemos/social.jpg">
-  <meta property="og:image:width" content="1280">
-  <meta property="og:image:height" content="720">
-  <meta property="og:image:alt" content="Desplazamiento climático: la migración que no vemos">
-  <meta property="og:locale" content="es_MX">
-  <meta property="og:type" content="article">
-  <meta property="og:title" content="Desplazamiento climático: la migración que no vemos">
-  <meta property="og:description"
-    content="Cada vez más mexicanos abandonan su hogar debido a la crisis climática. Las temperaturas se incrementan, la lluvia escasea y la sequía es más fuerte.">
-  <meta property="og:url" content="https://investigaciones.nmas.com.mx/desplazamiento-climatico-la-migracion-que-no-vemos/">
-  <meta property="og:site_name" content="N+">
-  <meta property="og:updated_time" content="2023-03-6">
-  <meta property="article:publisher" content="https://www.facebook.com/nmas.com.mx/">
-  <meta property="article:published_time" content="2023-03-6">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@nmas">
-  <meta name="twitter:title" content="Desplazamiento climático: la migración que no vemos">
-  <meta name="twitter:description"
-    content="Cada vez más mexicanos abandonan su hogar debido a la crisis climática. Las temperaturas se incrementan, la lluvia escasea y la sequía es más fuerte.">
-  <meta name="twitter:image" content="https://investigaciones.nmas.com.mx/desplazamiento-climatico-la-migracion-que-no-vemos/social.jpg">
-  <meta name="twitter:image:width" content="1280">
-  <meta name="twitter:image:height" content="720">
-  <meta name="twitter:image:alt" content="Desplazamiento climático: la migración que no vemos">
-  <meta name="description"
-    content="Cada vez más mexicanos abandonan su hogar debido a la crisis climática. Las temperaturas se incrementan, la lluvia escasea y la sequía es más fuerte.">
-  <meta name="keywords"
-    content="emergencia climática, crisis climática, cambio climático, temperatura en méxico, sequía en méxico, lluvias en méxico">
-  <meta name="news_keywords"
-    content="emergencia climática, crisis climática, cambio climático, temperatura en méxico, sequía en méxico, lluvias en méxico" />
-  <!--SEO-->
-  <link rel="stylesheet" href="./styles/css/bootstrap.min.css">
-  <link rel="stylesheet" href="./styles/scss/desplazados-climaticos.css">
-  <script type="text/javascript" defer src="./scripts/js/core/popper.min.js"></script>
-  <script type="text/javascript" defer src="./scripts/js/core/bootstrap.min.js"></script>
-  <!--Mapa-->
-  <link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css">
-  <script defer src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js"></script>
-  <script defer src="https://unpkg.com/scrollama"></script>
-  <script defer src="https://unpkg.com/intersection-observer@0.12.0/intersection-observer.js"></script>
-  <!--Mapa-->
-  <script type="text/javascript" defer src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-  <script type="text/javascript" defer src="https://cdn.jsdelivr.net/npm/vega-lite@5.8.0"></script>
-  <script type="text/javascript" defer src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-  <!--nmas-->
-  <link rel="shortcut icon" href="https://www.nmas.com.mx/favicon.ico">
-  <link rel="apple-touch-icon" sizes="180x180" href="https://www.nmas.com.mx/favicon.ico">
-  <link rel="icon" type="image/png" sizes="32x32" href="https://www.nmas.com.mx/favicon.ico">
-  <link rel="icon" type="image/png" sizes="16x16" href="https://www.nmas.com.mx/favicon.ico">
-  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-  <script type='text/javascript'
-    src='https://platform-api.sharethis.com/js/sharethis.js#property=6491f69f6fc24400124f2ae9&product=sticky-share-buttons'
-    async='async'></script>
+  <title>TNAP</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/tnap.css">
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-54200951-49"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'UA-54200951-49');
-    </script>
-
-  <!--nmas-->
+ 
 </head>
 
 <body>
-  <!--navbar-->
-  <nav class="navbar navbar-expand-lg autohide nav-background">
-    <div class="container">
-      <a class="logo-focus navbar-brand" href="#"><img src="./assets/img/logo_focus_alt.svg"
-          alt="N+ Focus es la unidad de periodismo de investigación de N+"></a>
-      <ul class="navbar-nav mb-2 mb-lg-0">
-        <li class="nav-item dropdown">
-          <a class="nav-link nav-link-custom dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
-            data-bs-toggle="dropdown" aria-expanded="false">
-            Interactivos
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-            <li><a class="dropdown-item d-none d-sm-block" href="#interactivo-mi-municipio">Mi municipio</a></li>
-            <li><a class="dropdown-item d-block d-sm-none" href="#interactivo-mi-estado">Mi Estado</a></li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-            <li><a class="dropdown-item" href="#interactivo-temperaturas">Temperaturas</a></li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-            <li><a class="dropdown-item" href="#interactivo-lluvias">Lluvias</a></li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-            <li><a class="dropdown-item" href="#interactivo-sequia">Sequía</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <!--Intro-->
-  <section id="preIntro">
-    <div class="position-relative overflow-hidden">
-      <div class="d-flex min-vh-100">
-        <video style="z-index:0;object-fit: cover; object-position: 50% 50%;"
-          class="position-absolute w-100 min-vh-100 video-bg" autoplay="" preload="" muted="" loop="" playsinline=""
-          poster="./assets/img/poster.webp">
-          <source src="./assets/video/03.webm" type="video/webm">
-          <source src="./assets/video/03.mp4" type="video/mp4">
-        </video>
-        <div style="z-index:2" class="align-self-center text-center col-md-8 offset-md-2 px-4">
-          <div class="frase" id="">Las alarmas de la emergencia climática en México están <span
-              class="destacada">encendidas</span>.
+<header></header>
+<main>
+
+
+
+ 
+  
+    
+<div class="position-relative overflow-hidden pt-0 mt-0">
+	<div class="d-flex min-vh-100" lc-helper="video-bg">
+	
+		<div class="align-self-center text-center text-light col-md-8 offset-md-2 col-12">
+			<div class="lc-block mb-4">
+				<div editable="rich">
+					<h1 class="display-1 fw-bolder"><img src="./assets/img/thenap.svg" style="max-width: 240px;" alt=""></h1>
+				</div>
+        <!-- ShareThis BEGIN --><div class="sharethis-inline-share-buttons"></div><!-- ShareThis END -->
+			</div>
+      <div class="texto pt-4">
+        <p style="font-size: 1.5rem;">🇲🇽 · 🇺🇲 · 🇨🇦</p>
+        <p> ¿Quieres ser parte de la construcción de una Norteamérica más próspera? <span> Stay tuned!</span></p>
+      </div>
+      <div class="titulo">
+        <p>👇</p>
+        
+        <p>4/10/2023</p>
+      </div>
+      <div>
+        
+      </div>
+			<div class="lc-block" id="contador">
+        <p class="footer pt-4 pb-0 mb-0">
+          Faltan
+         </p>
+				<div class="countdown d-flex justify-content-center" data-count="2023/10/4">
+          
+          <div>
+            <h3>%d</h3>
+            <h4>Días</h4>
           </div>
           <div>
-            <p class="scroll pt-4"><i class="bi bi-arrow-down-short"></i> <strong>scroll </strong> para continuar <i
-                class="bi bi-arrow-down-short"></i></p>
+            <h3>%h</h3>
+            <h4>Horas</h4>
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--Intro-->
-  <!-- Mapa de Intro -->
-  <section id="mapaIntro">
-    <div id="map"></div>
-    <div id="story"></div>
-  </section>
-  <!-- Mapa de Intro -->
-  <!--Header-->
-  <header>
-    <div class="position-relative overflow-hidden mx-0">
-      <div class="d-flex min-vh-100" lc-helper="video-bg">
-        <video style="z-index:1;object-fit: cover; object-position: 50% 50%;" class="position-absolute w-100 min-vh-100"
-          autoplay="" preload="" muted="" loop="" playsinline="">
-          <source src="./assets/video/02.webm" type="video/webm">
-          <source src="./assets/video/02.mp4" type="video/mp4">
-        </video>
-        <div style="z-index:2" class="align-self-center text-center text-light col-12">
-          <h1><img src="./assets/img/desplazamiento-climatico.png" class="text-center mw3"
-              alt="Desplazamiento Climático: la migración que no vemos"><br></h1>
-          <p class="autores text-center">Por <span>Saúl Sánchez Lemus</span> y <span>Alberto Pradilla</span>
-            <br>Análisis de datos <span>Isaac Arroyo</span>
-          </p>
-
-        </div>
-      </div>
-    </div>
-
-  </header>
-  <!--Header-->
-
-  <main class="mx-0">
-    <div style="height: 60px;"></div>
-
-    <section id="investigacion" class="container mx-0 mx-auto">
-      <div class="row d-flex justify-content-center mx-0">
-        <div class="col-md-12 mw6">
-          <hr>
-          <p><span class="CapInicial">M</span>éxico es un país cada vez más inhabitable. Los expertos llevan años
-            advirtiendo de un futuro con eventos
-            climáticos cada vez más extremos.</p>
-          <p>El cambio climático está causado por la acción de las personas. Y sus consecuencias les afectan
-            directamente. Un incremento de la temperatura, la sequía o el aumento desmedido de precipitaciones impacta
-            en su modo de vida. </p>
-          <p>La crisis climática ha provocado el surgimiento de un nuevo modo de desplazamiento: el desplazamiento
-            climático. Un éxodo silencioso del que no queda registro porque ni siquiera está oficialmente contabilizado.
-          </p>
-          <p>La Ley General de Cambio Climático reconoce, desde 2016, la existencia de estas migraciones. Además, México
-            admitió en 2019 que en su territorio existen miles de personas que son desplazadas forzadas, aunque la
-            mayoría de estadísticas elaboradas por ONG´s hacen referencia a víctimas de la violencia. La Ley General de
-            Desplazamiento Forzado Interno está paralizada desde 2020 y no está previsto que se apruebe durante este
-            sexenio. Ahí también se incluye un apartado donde se refiere a la migración provocada por desastres
-            naturales. </p>
-
-          <p>Según un estudio del Banco Mundial, para 2050 podrían haber más de 3 millones de mexicanos fuera de su
-            hogar debido al cambio climático, es decir, desplazados climáticos. Pero eso son solo estimaciones. No hay
-            cifras oficiales. </p>
-
-          <p>Un informe del Centro de Monitoreo del Desplazamiento Interno (IDMC, por sus siglas en inglés, una ONG con
-            sede en Oslo) señalaba que al cierre de 2022 hubo 3 mil 600 personas que se convirtieron en desplazadas por
-            eventos climáticos en México. Pero su metodología es limitada, ya que se basa en reportes de prensa y de
-            protección civil recopilados por otras asociaciones en México. </p>
-
-          <p> <strong>N+Focus</strong> preguntó a dependencias federales, estatales y locales y en todas ellas encontró
-            la misma
-            respuesta: no hay información sobre el fenómeno de la migración causada por el cambio climático. No hay
-            censos, no hay programas, no existen. </p>
-
-          <p>El problema es que los desplazados climáticos y sus familias están invisibilizados por las autoridades
-            municipales, estatales y federales a falta de un reconocimiento jurídico, afirma Armelle Gouritin,
-            investigadora comisionada a la Facultad Latinoamericana de Ciencias Sociales, FLACSO, y autora del libro
-            “Migrantes Climáticos en México”.</p>
-
-          <p>“Ninguna autoridad tiene facultades realmente otorgadas”, explica. “Cuando las ONGs o los académicos
-            señalamos que se necesita una ley, que se necesita reconocer este fenómeno, no es algo abstracto, sino que
-            se trata de dramas que están viviendo personas en carne propia”.</p>
-
-          <p>Úrsula Oswald, investigadora del Centro Regional de Investigaciones Multidisciplinarias de la UNAM afirma
-            que “lo que se discute muy pocas veces son las sequías que yo llamo los asesinos silenciosos”.</p>
-
-          <p>Oswald estima que con la crisis ambiental crecerá el número de migrantes climáticos “va a aumentar
-            muchísimo y por lo tanto yo creo que es necesario que nuestro gobierno invierta mucho más en este momento en
-            adaptación y en resiliencia, o sea, significa la capacidad que tiene la gente afectado sea por sequía, sea
-            por lluvias, inundaciones, huracanes que tengan la posibilidad de recuperarse”.</p>
-
-          <p>María Amparo Martínez, investigadora en el Instituto de Ciencias de la Atmósfera y Cambio Climático de la
-            UNAM y ex directora del Instituto Nacional de Cambio Climático es más escéptica y aclara que la migración es
-            multifactorial. Afirma que “los migrantes climáticos no están reconocidos a veces ni siquiera por los
-            propios estudiosos de estos temas”. Y considera que “el cambio climático puede ser un multiplicador de la
-            migración, no la causa única en general, pero va a ser un multiplicador”.</p>
-
-          <p> <strong>N+Focus</strong> trató de hablar con la secretaría de Medio Ambiente (Semarnat) y con el Instituto
-            Nacional de
-            Ecología y Cambio Climático (INECC), pero no recibió respuesta. </p>
-
-          <p>La falta de datos oficiales es una consecuencia de la ausencia de reconocimiento. Y obliga a manejar
-            informaciones que dejan fuera a muchos de los afectados.</p>
-          <p></p>
-        </div>
-      </div>
-      <!--Mi Municipio-->
-      <div id="municipios-mexico" class="container-fluid d-none d-sm-block">
-        <div class="row d-flex justify-content-center mx-0 py-4" id="interactivo-mi-municipio">
-          <div class="col-md-10" id="mi-municipio">
-            <h2>¿Cómo la emergencia climática cambió mi municipio?</h2>
-            <p class="indicaciones"><span>Indicaciones</span><br>Aquí podrás conocer la situación climática de tu
-              <strong>municipio</strong> durante 2022. Ingresa el nombre o seleccionalo de entre el siguiente listado.
-            </p>
-            <!--Embed-->
-            <iframe src="./municipios.html" width="100%" height="260px" loading="lazy"></iframe>
-            <!--Embed-->
-            <p class="text-center"><img src="./assets/img/n-focus-naranja.svg" class="mw1" alt=""></p>
-            <hr>
-            <br><br>
-            <p class="indicaciones">También puedes explorar las variaciones de los mapas nacionales, estatales y
-              municipales de <a href="#interactivo-temperaturas">temperatura</a>, <a
-                href="#interactivo-lluvias">lluvias</a> y <a href="#interactivo-sequia">sequía</a> desde 1990. Navega
-              haciendo clic sobre cada indicador o desde el <strong>Menú</strong> superior.</p>
-            <p class="indicaciones">&#8594;<span> <a href="#metodologia">metodología</a></span>&nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; &#8594;<span> <a href="https://github.com/nmasfocusdatos/desplazamiento-climatico">
-                  datos</a></span></p>
-
+          <div>
+            <h3>%m</h3>
+            <h4>Minutos</h4>
           </div>
-        </div>
-      </div>
-      <!--Mi Municipio-->
-      <!--Mi Estado-->
-      <div id="municipios-mexico" class="container-fluid d-block d-sm-none">
-        <div class="row d-flex justify-content-center mx-0 py-4" id="interactivo-mi-estado">
-          <div class="col-12" id="mi-municipio">
-            <h2>¿Cómo la emergencia climática cambió mi estado?</h2>
-            <p class="indicaciones"><span>Indicaciones</span><br>Aquí podrás conocer la situación climática de tu
-              <strong>estado</strong> durante 2022. Ingresa el nombre o seleccionalo de entre el siguiente listado.</p>
-            <!--Embed-->
-            <iframe src="./estados.html" width="100%" height="510px" loading="lazy"></iframe>
-            <!--Embed-->
-            <p class="text-center"><img src="./assets/img/n-focus-naranja.svg" class="mw1" alt=""></p>
-            <hr>
-            <br><br>
-            <p class="indicaciones">También puedes explorar las visualizaciones de las variaciones nacionales y
-              estatales de <a href="#interactivo-temperaturas">temperatura</a>, <a
-                href="#interactivo-lluvias">lluvias</a> y <a href="#interactivo-sequia">sequía</a> desde 1990. Navega
-              haciendo clic sobre cada indicador o desde el <strong>Menú</strong> superior.</p>
-            <p class="indicaciones"><span>Importante</span><br>Esta es una versión simplificada de la visualización.
-              Para explorar todas las opciones ingresa desde una computadora de escritorio o laptop.</p>
-            <p class="indicaciones">&#8594;<span> <a href="#metodologia">metodología</a></span>&nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; &#8594;<span> <a href="https://github.com/nmasfocusdatos/desplazamiento-climatico">
-                  datos</a></span></p>
-
-          </div>
-        </div>
-      </div>
-      <!--Mi Estado-->
-      <div class="row d-flex justify-content-center mx-0">
-        <div class="col-md-12 mw6">
-
-
-          <h2 class="h2-quote">“Se nos acabó el agua”<span>Metztitlán, Hidalgo</span> </h2>
 
         </div>
-      </div>
-      <!-- Fotografía-->
-      <div class="row d-flex justify-content-center mx-0">
-        <div class="text-center col-12">
-          <img src="./assets/img/desplazados-climaticos-33-min.webp" class="rounded" alt="" loading="lazy">
-          <figcaption>
-          </figcaption>
-          <p></p>
-        </div>
-      </div>
-      <div class="row d-flex justify-content-center mx-0">
-        <div class="text-center col-12 col-md-6">
-          <img src="./assets/img/desplazados-climaticos-30-min.webp" class="rounded" alt="" loading="lazy">
-          <figcaption>
-          </figcaption>
-          <p></p>
-        </div>
-        <div class="text-center col-12 col-md-6">
-          <img src="./assets/img/desplazados-climaticos-29-min.webp" class="rounded" alt="" loading="lazy">
-          <figcaption>
-          </figcaption>
-          <p></p>
-        </div>
-      </div>
-      <!-- Fotografía-->
-      <div class="row d-flex justify-content-center mx-0">
-        <div class="col-md-12 mw6">
+			</div>
 
-          <p>Con cada paso que da Agustina Gutiérrez, una pescadora de 68 años de edad, se escucha el crujir de la
-            tierra seca. El calor es abrasador y el paisaje está desolado,  con lanchas abandonadas, cientos de peces
-            muertos.</p>
-
-          <p>Esto era una laguna y ahora es un desierto.</p>
-
-          <p>Es la segunda vez que se seca completamente en los últimos tres años.</p>
-
-          <p>La mujer comenzó a pescar aquí hace medio siglo. Presume que les enseñó a pescar a cuatro de sus nueve
-            hijos, los cuales dos decidieron emigrar en 2020 cuando la laguna se secó por primera ocasión.</p>
-
-          <p>“Pues tuvieron la necesidad de emigrar para Estados Unidos. Desde que se secó la laguna se fueron, ellos
-            también son pescadores y también se mantenían de aquí” señala.</p>
-
-          <p>Metztitlán es ejemplo de cómo el cambio climático golpea México. Según el análisis de datos de
-            <strong>N+Focus</strong>, en
-            los últimos cinco años (de 2018 a 2022) el municipio tuvo un 20% menos de lluvia que en su promedio
-            histórico. </p>
-
-          <p>Además, su temperatura máxima estuvo 1.4 grados por encima del promedio histórico y su mínima, más de 1.1
-            grados por encima. </p>
-
-          <p>Su peor año fue 2019, con un 49% menos de lluvias y casi dos grados por encima de su temperatura máxima y
-            mínima. </p>
-
-          <p>Por último, de acuerdo al Índice de Severidad de Sequía de Palmer (PDSI, por sus siglas en inglés), uno de
-            los indicadores de sequía más populares del mundo, de los últimos 5 años, en 4 de ellos, el promedio anual
-            en el municipio ha estado bajo -2.5. Los valores positivos indican condiciones húmedas en la región y los 
-            negativos, condiciones de sequía. Normalmente se toma +4 como un estado muy húmedo mientras que -4 muy seco.
-          </p>
-
-          <p>La consecuencia directa de una sequía tan severa es obvia: la laguna se quedó sin agua. Y esto provocó que
-            los pescadores se quedaran sin trabajo, por lo que no les quedó otra opción que migrar. </p>
-
-        </div>
-      </div>
-      <!-- Fotografía-->
-      <div class="row d-flex justify-content-center mx-0">
-        <div class="text-center col-12">
-          <img src="./assets/img/desplazados-climaticos-26-min.webp" class="rounded" alt="" loading="lazy">
-          <figcaption>
-          </figcaption>
-          <p></p>
-        </div>
-      </div>
-      <!-- Fotografía-->
-      <div class="row d-flex justify-content-center mx-0">
-        <div class="col-md-12 mw6">
-
-          <p>Es el caso de Jesús Escamilla Gutiérrez, hijo de Agustina, quien trabaja en la cocina de un restaurante
-            japonés en San José, California, a más de 2 mil 500 kilómetros de distancia de su municipio de origen.</p>
-
-          <p>Fue pescador, pero la primera vez que se secó la laguna tuvo que migrar para sobrevivir. </p>
-
-          <p>“Se nos acabó el agua allá, no teníamos trabajo y tuvimos que venirnos para acá a trabajar. Estábamos
-            planeando irnos ahorita pero como se volvió a secar la laguna, sí nos aguantamos un ratito más.” explica, a
-            través de una videollamada, mientras prepara sushi a toda prisa.</p>
-
-          <p>La laguna y la barranca de Metztitlán tienen una profunda conexión. Si no llueve en la barranca no escurre
-            agua a la laguna. Y en la barranca tiene dos años que no llueve.</p>
-
-          <p>Mayra Pérez es habitante de El Pirú, una pequeña comunidad de agricultores que cada año pierden la cosecha
-            a falta de lluvia. Hermilo Espitia, su esposo, emigró hace dos años a Iowa, en Estados Unidos.</p>
-
-          <p>“Pues él se fue más que nada por el clima que no ayudó a esta comunidad a sostener a la familia. Está
-            ahorita en Iowa y allá está trabajando” apunta.</p>
-
-        </div>
-      </div>
-      <!-- Fotografía-->
-      <div class="row d-flex justify-content-center mx-0">
-        <div class="text-center col-12 col-md-6">
-          <img src="./assets/img/desplazados-climaticos-25-min.webp" class="rounded" alt="" loading="lazy">
-          <figcaption>
-          </figcaption>
-          <p></p>
-        </div>
-        <div class="text-center col-12 col-md-6">
-          <img src="./assets/img/desplazados-climaticos-24-min.webp" class="rounded" alt="" loading="lazy">
-          <figcaption>
-          </figcaption>
-          <p></p>
-        </div>
-      </div>
-      <!-- Fotografía-->
-      <div class="row d-flex justify-content-center mx-0">
-        <div class="col-md-12 mw6">
-
-          <p>Hermilo sabe que la sequía se ha prolongado en la barranca y esa situación le preocupa por las condiciones
-            en que está viviendo su esposa y su hija de apenas 2 años de edad.</p>
-
-          <p>“Ojalá que no empeore, sino al últimos vamos a tener que emigrar con todo y familias. Porque si sigue a ese
-            extremo a fin de cuentas vamos a dejar el pueblo y va a quedar un pueblo fantasma”, dice, en videollamada.
-          </p>
-
-          <p>En Metztitlán se padece una crisis climática que las autoridades no saben cómo enfrentar, asegura Juan
-            Flores Acosta, presidente de la Cooperativa San Cristóbal y su Laguna Natural, una de las cinco agrupaciones
-            de pescadores de la laguna.</p>
-
-          <p>“Han venido el secretario de Agricultura, vino la secretaria de Medio Ambiente, Conagua y toda la bola de
-            representantes de las dependencias, pero ahora lo que falta es la respuesta. Nos dicen no podemos hacer
-            nada, sino esperar, esperar a que llueva” señala Juan Flores, quien urge a las autoridades a hacer algo para
-            evitar la migración climática.</p>
-
-        </div>
-      </div>
-      <!-- Interactivo Sequía-->
-      <div class="row d-flex justify-content-center mx-0" id="interactivo-sequia">
-        <br>
-        <hr>
-        <p class="h3-interactivo text-center">Sequía en México <br><span>1990-2022</span></p>
-
-        <div class="col-md-6 d-none d-sm-block">
-
-
-          <p class="indicaciones"><span>Indicaciones</span><br><strong>Arrastra el slider inferior</strong> para ver los
-            cambios a nivel nacional.</p>
-
-
-          <div id="mapa_slider_pdsi"></div>
-        </div>
-        <div class="d-none d-sm-block col-md-6">
-
-          <p class="indicaciones"><span>Indicaciones</span><br><strong>Selecciona un estado o municipio</strong> para
-            ver las variaciones.</p>
-
-          <div id="mapas_stripes_pdsi"></div>
-
-        </div>
-        <div id="sequia-movil" class="d-block d-sm-none p-4">
-          <p class="indicaciones"><span>Indicaciones</span><br>Selecciona un <strong>estado</strong> para ver la
-            variación.</p>
-          <div id="stripes_pdsi_mobil"></div>
-          <p class="indicaciones"><span>Importante</span><br>Esta es una versión simplificada de la visualización. Para
-            explorar todas las opciones ingresa desde una computadora de escritorio o laptop.</p>
-        </div>
-        <p class="indicaciones">&#8594;<span> <a href="#metodologia">metodología</a></span>&nbsp; &nbsp; &nbsp; &nbsp;
-          &nbsp; &#8594;<span> <a href="https://github.com/nmasfocusdatos/desplazamiento-climatico"> datos</a></span>
+      <div>
+        <p class="footer pt-4">
+         Un proyecto de
         </p>
-        <hr>
-      </div>
-      <!-- Interactivo sequía -->
-      <div class="row d-flex justify-content-center mx-0">
-        <div class="col-md-12 mw6">
-
-          <p><br /><br /><br /></p>
-          <h2 class="h2-quote">“Nosotros estamos esperando el mejor momento para podernos ir”<span>Corralero, Pinotepa
-              Nacional, Oaxaca</span> </h2>
-          <p><br /><br /></p>
-
-        </div>
-      </div>
-      <!-- Fotografía-->
-      <div class="row d-flex justify-content-center mx-0">
-        <div class="text-center col-12">
-          <img src="./assets/img/desplazados-climaticos-15-min.webp" class="rounded" alt="" loading="lazy">
-          <figcaption>
-          </figcaption>
-          <p></p>
-        </div>
-      </div>
-      <div class="row d-flex justify-content-center mx-0">
-        <div class="text-center col-12 col-md-6">
-          <img src="./assets/img/desplazados-climaticos-17-min.webp" class="rounded" alt="" loading="lazy">
-          <figcaption>
-          </figcaption>
-          <p></p>
-        </div>
-        <div class="text-center col-12 col-md-6">
-          <img src="./assets/img/desplazados-climaticos-10-min.webp" class="rounded" alt="" loading="lazy">
-          <figcaption>
-          </figcaption>
-          <p></p>
-        </div>
-      </div>
-      <!-- Fotografía-->
-      <div class="row d-flex justify-content-center mx-0">
-        <div class="col-md-12 mw6">
-          <p>Jair Toscano, de 19 años, nació para ser pescador. Como su hermano Omar, de 20. Y como su otro hermano,
-            Víctor, el mayor de todos, de 27. Los tres viven en Corralero, una pequeña comunidad del municipio de
-            Pinotepa Nacional, Oaxaca, pegada a la laguna Alopango. Su padre, Tomás, que ahora es policía local, fue
-            quien les instruyó en cómo preparar la lancha, lanzar la red o encontrar los mejores lugares para capturar
-            mojarras, pargos o róbalos. En los últimos años, sin embargo, cambios en el entorno hicieron que la pesca
-            escaseara. Y la única oportunidad de supervivencia que consideran los jóvenes como Jair, Omar o Víctor es
-            migrar a Estados Unidos.</p>
-
-          <p>“A veces que nosotros sacamos un kilo de pescado, a veces ni kilo, dos o tres pescados, nada más para
-            comer, por eso mismo no hay nada. Así hasta uno quiere irse para trabajar allá en Estados Unidos”, dice
-            Jair, resignado. </p>
-
-          <p>Lleva más de dos años sin salir a pescar. Durante todo este tiempo la lancha familiar permaneció atracada
-            en la playa. Sin apenas pescado en la laguna, la familia Toscano decidió desmontar la embarcación y guardar
-            el motor en la casa, para evitar daños innecesarios. Se convirtieron en pescadores sin barca. </p>
-
-          <p>Víctor, por ejemplo, pasó dos años en la Ciudad de México trabajando con una tía. Regresó y apenas logra
-            empleos para sobrevivir. Ahora piensa en ir a Estados Unidos. </p>
-
-          <p>En Corralero no hay familia que no tenga algunos de sus integrantes en el norte. </p>
-
-          <p>“Cada vez hay menos gente. Están intentando irse a Estados Unidos, por lo mismo, porque necesitan dinero,
-            necesitan el trabajo, tienen su familia, su propia familia y se complica. Aquí se complica porque a veces no
-            hay para comer y andan rebuscando porque no encuentran, y eso es lo que hacen, irse al extranjero para tener
-            una mejor vida. Nosotros estamos esperando el mejor momento para podernos ir”, dice. </p>
-
-          <p>Este es otro tipo de desplazamiento. No son grandes masas que se mueven de un lugar a otro después de un
-            grave desastre. Es una migración de hormigas, pero que tiene como causa el cambio climático. </p>
-
-          <p>Corralero es uno de los municipios más golpeados por fenómenos como el incremento de la temperatura o la
-            sequía. Análisis elaborados por <strong>N+Focus</strong> detectaron que desde 2019, en Pinotepa, su cabecera
-            municipal,
-            llovió un 30% menos que en su promedio histórico. En este período, el municipio sufrió más de 10 meses de
-            sequía severa (categorizada como D2 según el monitor de sequía de la Conagua). Esto resulta relevante porque
-            en años anteriores nunca se registraron cifras tan preocupantes. De hecho, en 2020 el promedio en relación
-            al Índice de Severidad de Sequía de Palmer llegó a ser de -6, cuando los expertos indican que -4 ya es un
-            grado preocupante. </p>
-
-          <p>A pesar de que los datos son más graves que en Metztitlán, aquí no hay imágenes tan dramáticas. Aquí la
-            laguna no se llegó a secar, hay agua. Aquí, sin embargo, se muere por dentro. </p>
-        </div>
-      </div>
-      <!-- Fotografía-->
-      <div class="row d-flex justify-content-center mx-0">
-        <div class="text-center col-12">
-          <img src="./assets/img/desplazados-climaticos-13-min.webp" class="rounded" alt="" loading="lazy">
-          <figcaption>
-          </figcaption>
-          <p></p>
-        </div>
-      </div>
-      <div class="row d-flex justify-content-center mx-0">
-        <div class="text-center col-12 col-md-6">
-          <img src="./assets/img/desplazados-climaticos-16-min.webp" class="rounded" alt="" loading="lazy">
-          <figcaption>
-          </figcaption>
-          <p></p>
-        </div>
-        <div class="text-center col-12 col-md-6">
-          <img src="./assets/img/desplazados-climaticos-14-min.webp" class="rounded" alt="" loading="lazy">
-          <figcaption>
-          </figcaption>
-          <p></p>
-        </div>
-      </div>
-      <!-- Fotografía-->
-      <div class="row d-flex justify-content-center mx-0">
-        <div class="col-md-12 mw6">
-
-          <p>Antes, la bocabarra que une el mar con la laguna se abría de forma natural, por efecto de la lluvia, según
-            explica Máximo Mairena, antiguo pescador y actual agente del ayuntamiento de Corralero. La entrada de agua
-            marina permitía que el sistema lagunar se saneara. Con el agua renovada también llegaban los pescados, que
-            convertían la laguna en un lugar fértil. Sin embargo, la bocabarra comenzó a cerrarse progresivamente con la
-            arena que se mueve por las corrientes marinas. Dejó de llover, con lo que el empuje desde la laguna no era
-            suficiente para abrirse paso.</p>
-
-          <p>En los años 90 del siglo XX se abrió la bocabarra de forma artificial. Pero la progresiva sequía impidió
-            que esta se mantuviese despejada.</p>
-
-          <p>Un estudio elaborado en 2010 por la empresa Procomar SA de CV para la Secretaría de Agricultura y
-            Desarrollo Rural (Sagarpa) y la Conapesca advertía que de no realizarse una intervención, la tendencia de la
-            bocabarra era hacia el cierre completo y el deterioro de todo el sistema lagunar. </p>
-
-          <p>Pero ninguna autoridad hizo nada. </p>
-
-          <p>Desde entonces la comunidad pide a las autoridades federales un dragado de la bocabarra para abrir el
-            acceso al mar y que se termine una escollera que se prometió, pero que quedó inconclusa. Ya pasaron 13 años
-            desde el primer estudio económico y la respuesta que reciben sigue siendo la misma: que no hay fondos. </p>
-
-          <p>“Antes llovía todo el día, toda la noche. Ahora las lluvias perdieron el ciclo. Esto afecta muchísimo a los
-            pescadores, porque la laguna no tiene oxigenación y ya no pueden pescar. Por falta de oxigenación, la larva
-            ya no crece”, dice Yesenia Herrera, regidora de Medio Ambiente y Desarrollo Agropecuario en Pinotepa. </p>
-
-          <p>Su radiografía de la situación: “todos los jóvenes, tanto hombres como mujeres, la solución para ellos es
-            la emigración. Se van a Estados Unidos. Se quedan solas las casas, hay algunas casas que están cerradas, o
-            que solo quedaron papá y mamá.  Esa es la emigración que se da por falta de agua, porque ya no hay
-            pescado”. </p>
-
-          <p>Omar y Víctor encontraron una alternativa mientras preparan su viaje a Estados Unidos: trabajar con el
-            pescado que llega desde Chiapas, donde todavía no hay la escasez que sufren en Corralero. </p>
-
-          <p>Aquí una de las paradojas del cambio climático: una comunidad pesquera en Oaxaca termina trabajando con el
-            producto que llega desde Chiapas, a 800 kilómetros, porque en su laguna ya no hay peces. </p>
-
-          <p>Cada semana, un camión sale desde el estado vecino y trae los peces congelados hasta un puesto en la playa.
-            Ahí se limpian y se distribuyen por las localidades cercanas. </p>
-
-          <p>“Aquí en Corralero no hay lo suficiente. Nosotros necesitamos toneladas, no necesitamos kilos. Nos traen de
-            siete, ocho, nueve toneladas. Aquí hay muy poco, solamente para comer. Antes había demasiado. La bocabarra
-            estaba abierta, entraban peces nuevos, pero ahora no”, dice Omar. </p>
-
-          <p>La huella de la migración puede verse en las casas vacías que recuerdan a los que ya se fueron. Pero
-            alcanzar el norte tiene un costo. La tarifa de un pollero puede superar los 200 mil pesos. Otros buscan el
-            procedimiento de asilo, pero el cambio climático no es motivo para ser reconocido como refugiado en Estados
-            Unidos.</p>
-
-          <p>“He pensado en ir de mojado, pero es mucho dinero lo que pagas allá”, dice Omar. </p>
-
-          <p>El 2 de abril de 2023, Jair, Omar y Víctor se sumaron a otras decenas de jóvenes que solicitaron una visa
-            en Estados Unidos a través de un programa patrocinado por un diputado local. </p>
-
-          <p>Sin lluvia y sin pescado en la laguna, cada vez son más las personas que huyen a Estados Unidos para dejar
-            atrás la escasez. </p>
-        </div>
-      </div>
-      <!-- Interactivo lluvias-->
-      <div class="row d-flex justify-content-center mx-0" id="interactivo-lluvias">
-        <br>
-        <hr>
-        <p class="h3-interactivo text-center">Lluvias en México <br><span>1990-2022</span></p>
-        <div class="d-none d-sm-block col-md-6">
-
-          <p class="indicaciones"><span>Indicaciones</span><br><strong>Arrastra el slider inferior</strong> para ver los
-            cambios a nivel nacional.</p>
-
-          <div id="mapa_slider_lluvias"></div>
-
-        </div>
-        <div class="d-none d-sm-block col-md-6">
-
-          <p class="indicaciones"><span>Indicaciones</span><br><strong>Selecciona un estado o municipio</strong> para
-            ver las variaciones.</p>
-
-          <div id="mapas_stripes_lluvias"></div>
-
-        </div>
-        <div id="lluvias-movil" class="d-block d-sm-none p-4">
-          <p class="indicaciones"><span>Indicaciones</span><br>Selecciona un <strong>estado</strong> para ver la
-            variación.</p>
-          <div id="stripes_lluvias_mobil"></div>
-          <p class="indicaciones"><span>Importante</span><br>Esta es una versión simplificada de la visualización. Para
-            explorar todas las opciones ingresa desde una computadora de escritorio o laptop.</p>
-        </div>
-        <p class="indicaciones">&#8594;<span> <a href="#metodologia">metodología</a></span>&nbsp; &nbsp; &nbsp; &nbsp;
-          &nbsp; &#8594;<span> <a href="https://github.com/nmasfocusdatos/desplazamiento-climatico"> datos</a></span>
-        </p>
-        <hr>
-      </div>
-      <!-- Interactivo lluvias-->
-      <div class="row d-flex justify-content-center mx-0">
-        <div class="col-md-12 mw6">
-
-          <p><br /><br /><br /></p>
-          <h2 class="h2-quote">“No hay terreno, todo se acabó. El mar ahora es el dueño”<span>El Bosque, Centla,
-              Tabasco</span> </h2>
-
-          <p><br /><br /></p>
-        </div>
-      </div>
-      <!-- Fotografía-->
-      <div class="row d-flex justify-content-center mx-0">
-        <div class="text-center col-12">
-          <img src="./assets/img/desplazados-climaticos-02-min.webp" class="rounded" alt="" loading="lazy">
-          <figcaption>
-          </figcaption>
-          <p></p>
-        </div>
-      </div>
-      <div class="row d-flex justify-content-center mx-0">
-        <div class="text-center col-12 col-md-6">
-          <img src="./assets/img/desplazados-climaticos-05-min.webp" class="rounded" alt="" loading="lazy">
-          <figcaption>
-          </figcaption>
-          <p></p>
-        </div>
-        <div class="text-center col-12 col-md-6">
-          <img src="./assets/img/desplazados-climaticos-07-min.webp" class="rounded" alt="" loading="lazy">
-          <figcaption>
-          </figcaption>
-          <p></p>
-        </div>
-      </div>
-      <!-- Fotografía-->
-      <div class="row d-flex justify-content-center mx-0">
-        <div class="col-md-12 mw6">
-          <p>En medio de un frente frío, Elena Cardoza Carrillo, se apresura a rescatar de entre los escombros, de lo
-            que fue la casa de su padre, lo que aún no se ha llevado el mar. Estamos en febrero de 2022 y la mujer carga
-            lo que puede: láminas de acero, trozos de madera, muebles, trastes, aparatos eléctricos, ropa… todo quedó
-            revuelto cuando la fuerza del mar impactó la casa.</p>
-
-          <p>"Desgraciadamente nos ha tocado ahora sí un golpe muy duro, porque no queda más que piedra sobre piedra de
-            la vivienda. No hay terreno, todo se acabó. El mar ahora es el dueño" apunta Elena. </p>
-
-          <p>Dice que, en medio del caos, tiene dos penas que le rompen el corazón.</p>
-
-          <p>La primera ocurrió el 31 de diciembre de 2021, cuando su padre Margarito Cardoza falleció a los 88 años de
-            edad. La segunda tuvo lugar tres días después, cuando el mar destruyó su casa. </p>
-
-          <p>"Quizás por eso el Señor lo levantó para que no viera lo que venía sobre su hogar, todo lo que trabajó por
-            años" señala Elena, quien cree que su padre murió de tristeza, al ver cómo el agua amenazaba todo lo que
-            construyó en vida. </p>
-
-          <p>No en vano, él es uno de los fundadores de la comunidad, levantada hace 40 años por un grupo de pescadores
-            procedentes de Alvarado, Veracruz. Aquel municipio, ubicado a 500 kilómetros al norte de El Bosque, también
-            sufre las consecuencias de la erosión marina. </p>
-
-          <p>"Lo que estamos viendo aquí en El Bosque tiene que ver con estas modificaciones en el sistema climático que
-            están propiciando que los eventos le estén incrementando el impacto de erosión a este lado de la costa de
-            Tabasco" asegura Lilia Gama, investigadora de la Universidad Juárez Autónoma de Tabasco.</p>
-
-          <p>La doctora lleva 15 años estudiando las causas de la erosión en la costa tabasqueña. Remarca que el cambio
-            climático está provocando que sean más poderosos los vientos de los nortes, junto con las fuertes mareas que
-            los acompañan, lo cual está acelerando el proceso erosivo de la costa.</p>
-
-          <p>“Este es uno de los tipos de migración climática. Aquí el tema es que el mar se los va a llevar a todos”
-            advierte.</p>
-
-          <p>En 2019 el mar comenzó a destruir las casas de El Bosque. De 83 viviendas que había originalmente sólo
-            quedan en pie 33. De las primeras víctimas que perdieron su casa junto con su terreno fueron Rosa y
-            Estanislada, hermanas de Elena. Después la hija de Estanislada, Estefanía. Luego su prima Ana Barbara y don
-            Margarito Cardoza, el patriarca de los Cardoza Carrillo. En total, únicamente de la familia Cardoza
-            Carrillo, el mar ya destruyó 10 casas.</p>
-
-          <p>El incremento del nivel del mar es otra de las caras del cambio climático. En México, sin embargo, es muy
-            difícil de evaluar. Para observar cambios a largo plazo es necesario contar con datos de más de 30 años de
-            antigüedad. Pero en este caso, las estaciones de la Secretaría de Marina no logran esta cobertura ya que las
-            estaciones más antiguas solo llegan hasta 1999. Las estaciones del Servicio Mareográfico de la UNAM tienen
-            más alcance temporal, hasta los años 50 del siglo XX, pero muchas limitaciones. Faltan datos por averías en
-            los sensores, reubicación de las estaciones o por cuestiones de presupuesto.</p>
-
-          <p>Para el caso de El Bosque no es necesario un sensor: el agua está comiéndose las casas. </p>
-        </div>
-      </div>
-      <!-- Fotografía-->
-      <div class="row d-flex justify-content-center mx-0">
-        <div class="text-center col-12">
-          <img src="./assets/img/desplazados-climaticos-06-min.webp" class="rounded" alt="" loading="lazy">
-          <figcaption>
-          </figcaption>
-          <p></p>
-        </div>
+        <p>
+        <img src="./assets/img/logos.png" style="max-width: 220px;" alt="">
+      </p>
       </div>
 
-      <!-- Fotografía-->
-      <div class="row d-flex justify-content-center mx-0">
-        <div class="col-md-12 mw6">
 
-          <p>Casi somos un “pueblo fantasma”, asegura Guadalupe Cobos. Ella llegó a vivir a El Bosque en 1986 cuando
-            tenía 12 años de edad procedente de su natal Belén Grande, San Andrés Tuxtla, Veracruz. Dice que es
-            tabasqueña porque llegó sin acta de nacimiento y fue registrada en Tabasco.</p>
+		</div>
+	</div>
+</div>
+ 
+ 
+  
 
-          <p>“Para ver el mar tenía que caminar unos 20 minutos mínimo y eso era cansado. Ahorita el mar me salgo aquí
-            afuera y ya lo veo. Yo escuchaba cambio climático y decía: ay, pobrecitos los de México se van a hogar con
-            el humo, tanto carro que hay, pero no me acordaba que a 20 minutos estaba el mar y que también el mar sufre
-            las consecuencias de un cambio climático”, asegura.</p>
-
-          <p>Guadalupe explica que algunos vecinos que perdieron sus casas en El Bosque se fueron a rentar cuartos a
-            comunidades cercanas como Victoria, Rubirosa y Frontera. Agrega que los que no tienen dinero para pagar una
-            renta de mil pesos mensuales construyeron refugios en la misma colonia con los escombros de sus viviendas
-            que derribó el mar.</p>
-
-          <p>En El Bosque, el avance del mar ha destruido además viviendas, escuelas, iglesias,  pozos de agua potable,
-            calles y la infraestructura eléctrica según el recuento de Juan Manuel Orozco, Oficial de Proyectos de la
-            ONG Conexiones Climáticas.</p>
-
-          <p>“La situación de la comunidad de El Bosque, es una situación de vulnerabilidad que afecta, violenta,
-            digamos sus derechos fundamentales al agua, a la alimentación, a la vivienda digna, a la educación y a un
-            medio ambiente sano” remarca Orozco. En su opinión, la crisis climática agudiza la pobreza de los que menos
-            recursos tienen.</p>
-
-          <p>Los vecinos de El Bosque llevan 4 años solicitando la reubicación de la colonia. Fue hasta el 6 de febrero
-            de 2023, cuando el presidente Andrés Manuel López Obrador dio instrucciones para atender la problemática.
-          </p>
-
-          <p>Cinco semanas después, el 15 de marzo, Lluvia Salas, presidenta municipal de Centla, se reunió con los
-            vecinos, quienes le manifestaron su desesperación porque el mar no se detiene y sigue destruyendo casas. A
-            cambio Lluvia Salas les dio una respuesta que no esperaban escuchar: “El gobierno federal, el gobierno
-            estatal, el gobierno municipal ya estamos trabajando en la organización para la reubicación, créanme que no
-            les podemos dar una fecha. Si nosotros les decimos en diciembre ya están reubicados y si llega diciembre y
-            no está, van a decir que somos unos mentirosos”.</p>
-
-          <p>A través de documentos que N+ Focus obtuvo, Salas solicitó el apoyo de la Presidencia de la República y el
-            Gobierno de Tabasco para la donación de un predio destinado a la reubicación de la colonia El Bosque.</p>
-
-          <p>El predio de 4 mil metros cuadrados es propiedad del Gobierno Federal y se encuentra en la colonia
-            Francisco Villa, en la cabecera municipal, a 12 kilómetros de El Bosque.</p>
-
-          <p>Salas propone que la nueva colonia de los desplazados climáticos se denomine “La Cuarta Transformación”.
-          </p>
-
-          <p>"Sobre la reubicación, no dejan que piense uno positivamente sino que piense uno con inestabilidad, que
-            unos dicen una cosa, otros dicen otra y que ya sí y que ya no y que hay que tener paciencia" afirma Elena
-            Cardoza, angustiada ante el futuro incierto que tiene por delante. </p>
-
-
-        </div>
-      </div>
-      <!-- Interactivo temperaturas-->
-      <div class="row d-flex justify-content-center mx-0" id="interactivo-temperaturas">
-        <br>
-        <hr>
-        <p class="h3-interactivo text-center">Temperaturas en México <br><span>1990-2022</span></p>
-        <div class="col-md-6 d-none d-sm-block">
-
-          <p class="indicaciones"><span>Indicaciones</span><br><strong>Arrastra el slider inferior</strong> para ver los
-            cambios a nivel nacional.</p>
-
-          <div id="mapa_slider_temp_max"></div>
-
-        </div>
-        <div class="col-md-6 d-none d-sm-block">
-
-          <p class="indicaciones"><span>Indicaciones</span><br><strong>Selecciona un estado o municipio</strong> para
-            ver las variaciones.</p>
-
-          <div id="mapas_stripes_temp_max"></div>
-
-        </div>
-        <div id="temperaturas-movil" class="d-block d-sm-none p-4">
-          <p class="indicaciones"><span>Indicaciones</span><br>Selecciona un <strong>estado</strong> para ver la
-            variación.</p>
-          <div id="stripes_temp_max_mobil"></div>
-          <p class="indicaciones"><span>Importante</span><br>Esta es una versión simplificada de la visualización. Para
-            explorar todas las opciones ingresa desde una computadora de escritorio o laptop.</p>
-        </div>
-        <p class="indicaciones">&#8594;<span> <a href="#metodologia">metodología</a></span>&nbsp; &nbsp; &nbsp; &nbsp;
-          &nbsp; &#8594;<span> <a href="https://github.com/nmasfocusdatos/desplazamiento-climatico"> datos</a></span>
-        </p>
-        <hr>
-      </div>
-      <!-- Interactivo temperaturas-->
-      <div class="row d-flex justify-content-center mx-0">
-        <div class="col-md-12 mw6">
-
-          <p class="h2-quote text-center">***</p>
-
-          <p>Metztitlán, Pinotepa o El Bosque son solo tres ejemplos de las migraciones climáticas. Pero no son los
-            únicos. A lo largo de todo el país, miles de desplazados anónimos se ven obligados a dejar su casa porque la
-            sequía o el exceso de precipitaciones o cualquier otra expresión del cambio climático le hacen imposible
-            subsistir. Sin reconocimiento, México sufre un desplazamiento que las autoridades no quieren ver.  </p>
-
-        </div>
-      </div>
-
-      <div class="row d-flex justify-content-center mx-0">
-        <div class="col-md-12 mw6">
-          <p></p>
-          <p class="text-center">
-            <a
-              href="https://www.nmas.com.mx/nmas-focus/programas/nmas-focus/episodios/desplazamiento-climatico-la-migracion-que-no-vemos"><button
-                class="btn btn-danger mx-0"><strong>+</strong>Ver video</button></a>
-          </p>
-          <img src="./assets/img/cierre.png" alt="">
-        </div>
-      </div>
-    </section>
-    <!-- Recirculación -->
-    <section id="recirculacion" class="mx-auto">
-      <div><br><br><br><br><br></div>
-      <div class="row">
-        <h5 class="text-center p-4">Más investigaciones de <strong>N+ Focus</strong></h5>
-      </div>
-
-      <div class="container">
-        <div class="container d-flex justify-content-center mw8">
-          <div class="row">
-            <div class="investigacion col-md-3 col-lg-3 col-xxl-3 col-6 px-2" id="">
-              <a
-                href="https://www.nmas.com.mx/nmas-focus/programas/nmas-focus/episodios/agua-la-crisis-que-nos-alcanzo">
-                <img
-                  src="https://www.nmas.com.mx/_next/image?url=https%3A%2F%2Fstatic.nmas.com.mx%2Fnmas-video%2Fs3fs-public%2F2023-06%2Fposter-agua-lca.png&w=1200&q=90"
-                  alt="" loading="lazy">
-                <h6>Agua: la crisis que nos alcanzó</h6>
-              </a>
-              <div class="p-0 m-0">
-                <a href="https://investigaciones.nmas.com.mx/agua-la-crisis-que-nos-alcanzo/"><button
-                    class="btn btn-danger mx-0"><strong>+</strong>Interactivo</button></a>
-              </div>
-            </div>
-            <div class="investigacion col-md-3 col-lg-3 col-xxl-3 col-6 px-2" id="">
-              <a
-                href="https://www.nmas.com.mx/nmas-focus/programas/nmas-focus/videos/ciudad-sin-agua-pueblo-contra-gigante-concreto">
-                <img
-                  src="https://www.nmas.com.mx/_next/image?url=https%3A%2F%2Fstatic.nmas.com.mx%2Fnmas-video%2Fs3fs-public%2F2023-05%2Fposter-ciudad-sin-agua.png&w=1200&q=90"
-                  alt="" loading="lazy">
-                <h6>Ciudad sin agua: un pueblo contra el gigante de concreto</h6>
-              </a>
-              <div class="p-0 m-0">
-                <a href="https://investigaciones.nmas.com.mx/ciudad-sin-agua-un-pueblo-contra-el-gigante-de-concreto/"><button
-                    class="btn btn-danger mx-0"><strong>+</strong>Interactivo</button></a>
-              </div>
-            </div>
-            <div class="investigacion col-md-3 col-lg-3 col-xxl-3 col-6 px-2" id="">
-              <a href="https://investigaciones.nmas.com.mx/segalmex-corrupcion-y-desfalco/">
-                <img src="./assets/img/segalmex-poster.png" alt="" loading="lazy">
-                <h6>Segalmex: corrupción y desfalco</h6>
-              </a>
-              <div class="p-0 m-0">
-                <a href="https://investigaciones.nmas.com.mx/segalmex-corrupcion-y-desfalco/"><button
-                    class="btn btn-danger mx-0"><strong>+</strong>Interactivo</button></a>
-              </div>
-            </div>
-            <div class="investigacion col-md-3 col-lg-3 col-xxl-3 col-6 px-2" id="">
-              <a href="https://www.nmas.com.mx/nmas-focus/programas/nmas-focus/videos/si-no-pagas-no-pasas">
-                <img
-                  src="https://www.nmas.com.mx/_next/image?url=https%3A%2F%2Fstatic.nmas.com.mx%2Fnmas-video%2Fs3fs-public%2F2023-03%2Fposter-si-no-pagas-no-pasas.jpg&w=600&q=90"
-                  alt="" loading="lazy">
-                <h6>Si no pagas, no pasas</h6>
-              </a>
-              <div class="p-0 m-0">
-                <a href="https://investigaciones.nmas.com.mx/corrupcion-inm-si-no-pagas-no-pasas/"><button
-                    class="btn btn-danger mx-0"><strong>+</strong>Interactivo</button></a>
-              </div>
-            </div>
-
-
-          </div>
-        </div>
-      </div>
-      <div><br>
-        <hr>
-        </hr>
-      </div>
-      <div class="container">
-        <div class="container d-flex justify-content-center mw8">
-
-          <div class="row">
-            <div class="investigacion col-md-3 col-lg-3 col-xxl-3 col-6 px-2" id="">
-              <a
-                href="https://www.nmas.com.mx/nmas-focus/programas/nmas-focus/videos/desaparecidas-ignoradas-peligro-ser-mujer-nuevo-leon">
-                <img src="./assets/img/nl-poster.png" alt="" loading="lazy">
-                <h6>Desaparecidas e ignoradas: el peligro de ser mujer en Nuevo León</h6>
-              </a>
-              <div class="p-0 m-0">
-                <a href="https://investigaciones.nmas.com.mx/desaparecidas-ignoradas-peligro-ser-mujer-en-nuevo-leon/"><button
-                    class="btn btn-danger mx-0"><strong>+</strong>Interactivo</button></a>
-              </div>
-            </div>
-            <div class="investigacion col-md-3 col-lg-3 col-xxl-3 col-6 px-2" id="">
-              <a
-                href="https://www.nmas.com.mx/nmas-focus/programas/nmas-focus/videos/los-olvidados-hidalgo-reportaje-especial">
-                <img
-                  src="https://www.nmas.com.mx/_next/image?url=https%3A%2F%2Fstatic.nmas.com.mx%2Fnmas-video%2Fs3fs-public%2F2023-02%2Fposter-olvidados-hidalgo%2520%25281%2529_0.jpg&w=600&q=90"
-                  alt="" loading="lazy">
-                <h6>Los olvidados de Hidalgo</h6>
-              </a>
-              <div class="p-0 m-0">
-                <a href="https://investigaciones.nmas.com.mx/los-olvidados-de-hidalgo/"><button
-                    class="btn btn-danger mx-0"><strong>+</strong>Interactivo</button></a>
-              </div>
-            </div>
-            <div class="investigacion col-md-3 col-lg-3 col-xxl-3 col-6 px-2" id="">
-              <a href="https://www.nmas.com.mx/nmas-focus/programas/nmas-focus/videos/suenos-mentiras-la-fiebre-litio">
-                <img
-                  src="https://www.nmas.com.mx/_next/image?url=https%3A%2F%2Fstatic.nmas.com.mx%2Fnmas-video%2Fs3fs-public%2F2022-09%2FfocuslitioOK.jpeg&w=1200&q=90"
-                  alt="" loading="lazy">
-                <h6>Sueños y mentiras en la fiebre del litio</h6>
-              </a>
-              <div class="p-0 m-0">
-                <a href="https://investigaciones.nmas.com.mx/suenos-y-mentiras-en-la-fiebre-del-litio/"><button
-                    class="btn btn-danger mx-0"><strong>+</strong>Interactivo</button></a>
-              </div>
-            </div>
-            <div class="investigacion col-md-3 col-lg-3 col-xxl-3 col-6 px-2" id="">
-              <a
-                href="https://www.nmas.com.mx/nmas-focus/programas/nmas-focus/videos/ambulancias-irregulares-lucrar-la-emergencia">
-                <img
-                  src="https://www.nmas.com.mx/_next/image?url=https%3A%2F%2Fstatic.nmas.com.mx%2Fnmas-video%2Fs3fs-public%2F2022-08%2FPoster-528x792.jpg&w=1200&q=90"
-                  alt="" loading="lazy">
-                <h6>Ambulancias irregulares: lucrar con la emergencia</h6>
-              </a>
-              <div class="p-0 m-0">
-                <a href="https://investigaciones.nmas.com.mx/ambulancias-irregulares-lucrar-con-la-emergencia/"><button
-                    class="btn btn-danger mx-0"><strong>+</strong>Interactivo</button></a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-      <br>
-      <hr>
-      </hr>
-      </div>
-      <div class="container">
-        <div class="container d-flex justify-content-center mw8">
-
-          <div class="row">
-
-
-            <div class="investigacion col-md-3 col-lg-3 col-xxl-3 col-6 px-2" id="">
-              <a href="https://www.nmas.com.mx/nmas-focus/programas/nmas-focus/videos/buscadoras-mar-tierra">
-                <img
-                  src="https://www.nmas.com.mx/_next/image?url=https%3A%2F%2Fstatic.nmas.com.mx%2Fnmas-video%2Fs3fs-public%2F2022-06%2Fbuscadoras_poster_0.jpeg&w=1200&q=90"
-                  alt="" loading="lazy">
-                <h6>Buscadoras: por mar y tierra</h6>
-              </a>
-              <div class="p-0 m-0">
-              </div>
-            </div>
-            <div class="investigacion col-md-3 col-lg-3 col-xxl-3 col-6 p-1" id="">
-              <a href="https://www.nmas.com.mx/nmas-focus/programas/nmas-focus/videos/tulum-un-paraiso-ilegal">
-                <img
-                  src="https://www.nmas.com.mx/_next/image?url=https%3A%2F%2Fstatic.nmas.com.mx%2Fnmas-video%2Fs3fs-public%2F2022-11%2Fposter-tulum-paraiso-ilegal.jpg&w=1200&q=90"
-                  alt="" loading="lazy">
-                <h6>Tulum: un paraíso ilegal</h6>
-              </a>
-              <div class="p-0 m-0">
-                <a href="https://investigaciones.nmas.com.mx/tulum-un-paraiso-ilegal/"><button
-                    class="btn btn-danger mx-0"><strong>+</strong>Interactivo</button></a>
-              </div>
-            </div>
-            <div class="investigacion col-md-3 col-lg-3 col-xxl-3 col-6 p-1" id="">
-
-            </div>
-            <div class="investigacion col-md-3 col-lg-3 col-xxl-3 col-6 p-1" id="">
-
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-    </section>
-  </main>
+</main>
 
   <footer>
-    <section id="metodologia">
-      <div class="container-fluid m-0 py-4">
-        <div class="d-flex justify-content-center">
-          <div class="col-md-12 mw6">
-            <h2>Metodología</h2>
-            <p>Este trabajo usó las variables climatológicas de temperatura, sequía y lluvia en México para definir los
-              estados y municipios que han sido más afectados por la crisis climática. En el caso de Santiago Pinotepa
-              Nacional fue por un periodo de más de 10 meses de sequía severa (D2, de acuerdo con el Monitor de Sequía
-              de México)  en el 2020, un tipo de sequía que no tuvo registro de esa magnitud  en años anteriores.</p>
-            <h3>A. Recopilación de los datos</h3>
-            <hr>
 
-            <h4>1. Datos climatológicos</h4>
-            <p>Los datos climatológicos mostrados en el reportaje y usados para el análisis de los datos se obtuvieron 
-              de <a href="https://www.climatologylab.org/terraclimate.html"><strong>TerraClimate</strong></a><strong>,
-              </strong>un conjunto de datos <em>raster</em> cuyos proveedores son el equipo del Laboratorio Climatología
-              <em>“</em><a href="https://www.climatologylab.org"><em>Climatology Lab</em></a><em>”</em>  de la
-              Universidad de California, Merced (EE.UU.). La base tiene información mensual desde 1960 hasta el 2022.
-            </p>
-            <p>Para tener acceso a los datos se usó <a href="https://earthengine.google.com/"><strong>Google Earth
-                  Engine</strong></a>, una plataforma que facilita la manipulación de imágenes satelitales, datos
-              <em>raster</em> y georeferenciados así como su uso para cálculos matemáticos y estadísticos.</p>
-
-            <p>Las variables climatológicas que se usaron de <a
-                href="https://developers.google.com/earth-engine/datasets/catalog/IDAHO_EPSCOR_TERRACLIMATE">TerraClimate</a>
-              fueron:</p>
-            <ul>
-              <li>Temperatura Máxima.</li>
-              <li>Temperatura Mínima.</li>
-              <li>Precipitación.</li>
-              <li>Índice de Severidad de Sequía Palmer (<em>PDSI</em>, por su nombre en inglés), también llamada a lo
-                largo del trabajo como<em> Severidad de Sequía</em>: es uno de los indicadores de sequía más populares
-                el cual no tiene unidades. Toma en cuenta otras variables climatológicas como la temperatura,
-                precipitación y un modelo de balance físico del agua. Es común ver sus valores entre -4 y 4, donde
-                valores igual o menor que -4 son condiciones de <strong>sequía extrema</strong>, valores iguales o
-                mayores que 4 son para condiciones de <strong>humedad extrema</strong> y valores cercanos a cero indican
-                condiciones normales.</li>
-              <li>Déficit Climático del Agua (<em>CWD</em>, por su nombre en inglés): Puede ser pensado como la cantidad
-                de agua que pudo haber sido evaporada o transpirada (usada) de haber estado disponible en la tierra dada
-                a la temperatura. Este cálculo es un estimado del estrés de sequía en los suelos y plantas. Entre mayor
-                sea el <em>CWD</em>, mayor es el estrés de sequía.</li>
-            </ul>
-            <h4>2. Sequía en municipios de México</h4>
-            <p>El <a
-                href="https://smn.conagua.gob.mx/es/climatologia/monitor-de-sequia/monitor-de-sequia-en-mexico"><strong>Monitor
-                  de Sequía de México (MSM)</strong></a> cuenta con los registros de tipo de sequía de acuerdo al <a
-                href="https://www.ncei.noaa.gov/access/monitoring/nadm/">Monitor de Sequía de América del Norte
-                (NADM)</a>.  El registro del MSM empieza en 2003 de manera mensual y a partir del 2014 de manera
-              quincenal, por lo que son al menos 20 años de datos a nivel municipal.</p>
-            <p>La metodología del MSM se basa en la interpretación de diferentes indicadores e índices de vegetación,
-              humedad de suelo y precipitación.</p>
-            <h4>3. Índice de Intensidad Migratoria México–Estados Unidos 2020 (IIM 2020)</strong></h4>
-            <p>La Secretaría General del Consejo Nacional de Población (SGCONAPO), desde el año 2002 y cada 10 años
-              libera el documento "<a
-                href="https://www.gob.mx/conapo/documentos/indice-de-intensidad-migratoria-mexico-estados-unidos">Índice
-                de Intensidad Migratoria México–Estados Unidos</a>" por entidad federativa y municipio.</p>
-            <p>De las variables que toman en cuenta son:</p>
-            <ul>
-              <li>Porcentaje de viviendas que reciben remesas.</li>
-              <li>Porcentaje de viviendas con emigrantes en Estados Unidos.</li>
-              <li>Porcentaje de viviendas migrantes circulares de Estados Unidos.</li>
-              <li>Porcentaje de viviendas con migrantes de retorno del quinquenio de Estados Unidos</li>
-            </ul>
-            <p>En este índice no se toman en cuenta los motivos que provocan esta migración. </p>
-            <h4>4. Geometrías de estados y municipios de México</strong></h4>
-            <p>Para la creación de mapas de la república se usaron las geometrías que proporciona la plataforma de datos
-              del INEGI en el <a href="https://www.inegi.org.mx/app/biblioteca/ficha.html?upc=889463770541">Marco
-                Geoestadístico Nacional, Edición 2022</a>. Estas geometrías fueron comprimidas en un <br /><br /></p>
-            <h3>B. Análisis de datos</h3>
-            <hr>
-
-            <h4>1. Variables climatológicas </strong></h4>
-            <p>Para poder observar los cambios y qué tan significativos han sido esos cambios a través del tiempo se
-              calcularon anomalías y se cuantifican los comportamientos con respecto a una base histórica.</p>
-            <p>De acuerdo con la Administración Nacional Oceánica y Atmosférica (NOAA), las <a
-                href="https://forecast.weather.gov/glossary.php?word=ANOMALY#:~:text=Anomaly,year%20mean%2C%20for%20that%20region.">anomalías</a>
-              son las desviaciones de una unidad con respecto a un <strong>promedio histórico</strong> de normalmente 30
-              años. Para este análisis, el periodo de tiempo al que se refiere como<strong> promedio histórico es de
-                1960 a 1989:</strong></p>
-            <ul>
-              <li>Anomalías de temperaturas (máximas y mínimas): Es la cantidad de grados Celsius (°C) en la que se
-                encuentra una región a un determinado tiempo con respecto al promedio histórico de esa región en ese
-                tiempo. Valores positivos significan mayor temperatura y valores negativos menor temperatura.</li>
-              <li>Anomalías de precipitación: Mide la diferencia relativa (%) de la precipitación, es decir, la
-                proporción de precipitación que hay en una región en un determinado tiempo con respecto al promedio
-                histórico de esa región en ese tiempo. Valores positivos significan que ha llovido más  y valores
-                negativos que ha llovido menos.</li>
-            </ul>
-            <p>Sin embargo, para poder encontrar <strong>comportamientos</strong> fuera de lo esperado, se usa el <a
-                href="https://www.cancer.gov/espanol/publicaciones/diccionarios/diccionario-genetica/def/puntuacion-z"><strong>Z-score</strong></a>,
-              una medida estadística sin unidades ya que indica a cuántas <a
-                href="http://prepa8.unam.mx/academia/colegios/matematicas/paginacolmate/applets/matematicas_IV/Applets_Geogebra/desestyvar.html"><strong>desviaciones
-                  estándar (σ)</strong></a> están los datos y con ella, la atención se centra en lo que está fuera de lo
-              históricamente esperado/ordinario sin importar las unidades. Las variables con las que se trabaja con esta
-              medida son:</p>
-            <ul>
-              <li><strong>Z-score</strong> de temperaturas (máximas y mínimas).</li>
-              <li><strong>Z-score </strong>del Déficit Climático del Agua.</li>
-            </ul>
-            <h4>2. Estados con comportamiento inusual</h4>
-            <p>Para poder centrar la investigación a los estados de México específicos, se tuvieron que fijar
-              comportamientos alarmantes. Este tipo de comportamientos se basan en valores que se describen a
-              continuación para cada una de las variables:</p>
-            <ul>
-              <li>Comportamiento de temperaturas: Aquellos estados que tengan más de 8 meses con un valor de
-                <strong>Z-score</strong> por encima de 1.5σ a partir del 2015.</li>
-              <li>Anomalía de precipitación: Aquellos estados que tengan más de 6 meses con menos del -50% de
-                precipitación, a partir del 2015.</li>
-              <li>Índice de Severidad de Sequía de Palmer: Aquellos estados que tengan más de 6 meses con un valor por
-                debajo de -4 a partir del 2015.</li>
-              <li>Comportamiento del Déficit Climático del Agua: Aquellos estados que tengan más de 6 meses con un valor
-                de Z-score por encima de 1.5σ a partir del 2015</li>
-            </ul>
-            <h4>3. Estados con alto IIM 2020</h4>
-            <p>A pesar de que el índice no especifica motivos de migración, se consulta para encontrar estados con alta
-              migración que ayuden a complementar los resultados de las variables climatológicas.</p>
-            <p>De acuerdo con el <a
-                href="https://www.gob.mx/cms/uploads/attachment/file/666981/Nota_tecnico_metodologica_IIM_Mex-EUA_2020.pdf'">documento
-                del Índice de Intensidad Migratoria México–Estados Unidos 2020</a> de la SGCONAPO:</p>
-            <p><em>“En el caso de la intensidad migratoria “Muy alta” ocho de cada diez de los 137 municipios
-                clasificados con este grado se ubican en Oaxaca, Michoacán, Zacatecas, Hidalgo, San Luis Potosí,
-                Guanajuato y Jalisco”.</em></p>
-            <h4>4. Municipios con altas rachas de sequía</h4>
-            <p>Para encontrar los municipios que han pasado por sequías extremas en los últimos años:</p>
-            <ol>
-              <li>Se separaron las rachas máximas de todas las categorías en dos grupos: rachas máximas de cada
-                municipio <strong>antes de Enero 2013 (I) </strong> y <strong>a partir de Enero 2013</strong> (II).</li>
-              <li>Se calcularon las diferencias de duración (en meses) que tuvieron las rachas máximas de cada grupo con
-                su respectivo tipo de sequía y municipio.</li>
-              <li>Se filtran los resultados a aquellas rachas de sequía que empezaron en 2020.</li>
-            </ol>
-            <h3>C. Limitaciones con los datos</h3>
-            <hr>
-            <h4>1. Datos climatológicos de TerraClimate</h4>
-            <p>Al ir de lo general a lo específico, calcular estadísticas como el promedio, a un área geográfica el
-              resultado puede estar sesgado dependiendo de los ecosistemas o condiciones geográficas de cada entidad. 
-            </p>
-            <h4>2. Nivel del mar</h4>
-            <p>A pesar de que <a href="https://oceanografia.semar.gob.mx/mapa_estaciones.html">la Secretaría de la
-                Marina (SEMAR) cuenta con varias estaciones mareográficas</a>, el periodo de tiempo en el que han estado
-              funcionando es menos de 30 años, por lo cual no cumple con los requisitos mínimos para realizar un
-              análisis como con las demás variables climatológicas.</p>
-            <p>Se acudió al<a href="https://chalchiuhtlicue.geofisica.unam.mx/"> Servicio Mareográfico Nacional de la
-                UNAM (SMN-UNAM)</a> y aunque cuentan con registros más antiguos que en la  SEMAR, se cuentan con
-              obstáculos como la falta de datos debido diferentes razones como: falta de presupuesto para el proyecto,
-              reparaciones de los sensores en las estaciones, reubicación de las estaciones y actualización de datos.
-            </p>
-            <p>La estación con datos actualizados y menor cantidad de datos faltantes es la del Puerto de Veracruz, pero
-              se encuentra a más de 300 km de El Bosque, Centla, Tabasco; cada estación atiende a una zona distinta y
-              por ello sus características mareográficas no son equiparables.</p>
-            <h4>3. Índice de Intensidad Migratoria </h4>
-            <p>Las limitantes con los datos del IIM 20202 son 1) que no toma en cuenta motivos de la migración y 2) se
-              usaron distintas metodologías en los informes previos. Las primeras dos ediciones (2000 y 2010) usaron una
-              metodología basada en la técnica de <strong>Análisis de Componentes Principales (PCA)</strong>, sin
-              embargo para la <a
-                href="https://www.gob.mx/cms/uploads/attachment/file/666981/Nota_tecnico_metodologica_IIM_Mex-EUA_2020.pdf">edición
-                del 2020 la metodología cambió por el método de medición de distancia P2</a> lo que no se encontró
-              manera de comparar a profundidad los índices a través del tiempo.</p>
-          </div>
-        </div>
-      </div>
-
-    </section>
-
-    <section id="footerCreditos" class="bg-morado text-light">
-      <div class="container py-5">
-        <div class="row">
-          <div class="col-lg-3">
-            <div class="mb-4">
-              <img class="img-fluid" alt="N+ Focus es la unidad de periodismo de investigación de N+"
-                src="./assets/img/logo_focus_alt.svg" style="max-height:6vh">
-
-              <p class="">Publicado el 24 de julio de 2023.</p>
-            </div>
-            <div class="small">
-            </div>
-            <div class="py-2">
-            </div>
-
-          </div>
-          <div class="col-lg-7">
-            <div class="mb-4">
-              <div>
-                <p>
-                <h1 class="">Desplazamiento climático: la migración que no vemos</h1>
-                </p>
-                <p> <strong>Créditos</strong>
-
-                  <br>
-                  Investigación:
-                  Saúl Sánchez Lemus y Alberto Pradilla.
-                  <br>
-                  Análisis de datos y gráficos interactivos: Isaac Arroyo.
-                  <br>
-                  Diseño y desarrollo web: Omar T. Bobadilla.
-
-                </p>
-                <p>
-                  <strong>Video</strong>
-                  <br>
-                  Realización:
-                  Enrique de la Mora, Williams Castañeda y Rafael López.
-                  <br>
-                  Post producción: Jorge Ulloa.
-                  <br>
-                  Guión: Cecilia Guadarrama.
-                  <br>
-                  Animaciones: Miryam Blancas y Omar T. Bobadilla.
-                  <br>
-                  Producción: Aziyadé Sabines.
-
-                </p>
-                <p>
-                  <strong>Subdirección</strong> <br> Íñigo Arredondo. <br>
-                  <strong>Dirección</strong> <br> Omar Sánchez de Tagle.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
   </footer>
 
-  <script defer src="./scripts/js/custom/config.js"></script>
-  <script defer src="./scripts/js/custom/map.js"></script>
-  <script defer src="./scripts/js/custom/interactivos-movil.js"></script>
-  <div class="d-none d-sm-block">
-    <script defer src="./scripts/js/custom/interactivos.js"></script>
-  </div>
-  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/stickyfill/2.1.0/stickyfill.min.js"></script>
-
+  
+  <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=64e6e90a840cdd0019f36489&product=inline-share-buttons' async='async'></script>
 </body>
+<script>
+
+(function() {
+  "use strict";
+
+  /**
+   * Easy selector helper function
+   */
+  const select = (el, all = false) => {
+    el = el.trim()
+    if (all) {
+      return [...document.querySelectorAll(el)]
+    } else {
+      return document.querySelector(el)
+    }
+  }
+
+
+  /**
+   * Easy on scroll event listener 
+   */
+  const onscroll = (el, listener) => {
+    el.addEventListener('scroll', listener)
+  }
+
+
+
+  /**
+   * Countdown timer
+   */
+  let countdown = select('.countdown');
+  const output = countdown.innerHTML;
+
+  const countDownDate = function() {
+    let timeleft = new Date(countdown.getAttribute('data-count')).getTime() - new Date().getTime();
+
+    let days = Math.floor(timeleft / (1000 * 60 * 60 * 24));
+    let hours = Math.floor((timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
+    let seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
+
+    countdown.innerHTML = output.replace('%d', days).replace('%h', hours).replace('%m', minutes).replace('%s', seconds);
+  }
+  countDownDate();
+  setInterval(countDownDate, 1000);
+
+})()
+</script>
 </html>
