@@ -1,0 +1,1060 @@
+@import url("https://use.typekit.net/dvg3qhz.css");
+
+:root {
+  --messina: 'franklin-gothic-atf', sans-serif;
+  --tisa: 'ff-tisa-web-pro', serif;
+  --ivy-display: 'ivypresto-headline', serif;
+    --mono: 'divenire-mono', serif;
+    --crema: #f1efe3;
+    --crema-alternativo: #f5ede7;
+    --black: #222;
+    --rojo: #FF3640;
+    --naranja: #FF6D46;
+    --amarillo: #FDD732;}
+html {
+  overflow-x: hidden;
+}
+body {
+    font-size: 1.1rem;
+    font-family: var(--messina);
+    color: var(--black);
+    line-height: 1.5rem;
+    background-color: #000;
+    width: 100%;
+    }
+
+    .textDestacado {
+      color: var(--rojo);
+      font-family: var(--tisa);
+    }
+
+    .textUpper {
+      font-family: var(--messina);
+      text-transform: uppercase;
+    }
+
+    h1,h4,h5,h6 {
+      font-family: var(--messina);
+      font-weight: 800;
+      display: inline;
+
+    }
+    h2 {
+      font-family: var(--messina);
+      text-align: center;
+      font-weight: 800;
+      font-size: 2.5rem;
+      padding-top: 2rem;
+      padding-bottom: 1rem;
+    }
+    
+    @keyframes scroll {
+       100%{
+        background-position:0px -4000px;
+      }
+    }
+    
+
+  .footerFocus {
+    background-color: #000;
+    padding: 1rem;
+    font-size: 0.75rem;
+  }
+
+  .creditosFocus {
+    text-transform: uppercase;
+    color: var(--crema);
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+
+  }
+
+ 
+.logo-focus {
+  width: 8rem;
+  padding-bottom: .25rem;
+}
+
+.btn-focus {
+  color: var(--crema);
+    background-color: var(--rojo);
+}
+
+p {
+  position: relative;
+  line-height: 1.450rem;
+  font-weight: 300;
+  font-size: 1.05rem;
+  display: block;
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
+}
+
+.minus {
+  font-size: .850rem;
+} 
+
+strong {
+  font-weight: bold;
+}
+
+figcaption {
+  font-size: 0.785rem;
+  color: #999;
+  font-family: var(--mono);
+}
+
+
+
+video {
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.video-wrapper {
+  width: 1980px;
+  height: 1080px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageShadow {
+  filter: drop-shadow( #222 2px 2px 5px);
+}
+ 
+#outro {
+  height: 5rem;
+  background-color: transparent;
+} 
+
+.figure-caption {
+  font-size: .8rem;
+  line-height: 1rem;
+  font-family: var(--mono);
+  padding: .8rem;
+}
+
+
+button, input, optgroup, select, textarea {
+  background-color: var(--crema);
+  color: var(--black);
+  margin: 1rem;
+  text-transform: uppercase;
+  font-family: var(--mono);
+  font-size: .7rem;
+  padding: 2px 10px 2px 10px;
+  letter-spacing: 1px;
+  border-width: 1px;
+}
+
+.nav-item {
+  color: var(--crema);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}
+
+@mixin center() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-danger {
+  background-color: var(--rojo) !important;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  font-size: 100%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+}
+
+.vertical-center {
+  position: center;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(50%);
+}
+
+footer
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.bg-crema {
+  background-color: var(--crema) !important;
+  color: var(--black) !important;
+  width: 100%;
+}
+
+.logo-nmas {
+  width: 46px;
+  background: var(--rojo);
+  padding: 10px;
+  margin-top: 3px
+}
+
+
+.texto-crema {
+  color: var(--crema);
+}
+
+/** desplazados **/
+img {
+  width: 100%;
+  border: 0;
+  height: auto;
+  padding: 0;
+  /* overflow: hidden; */
+  margin: 0 auto;
+  z-index: 99;
+  display: inline-block;
+}
+
+a {
+    color: var(--crema);
+    font-family: var(--messina);
+    text-decoration: underline dotted var(--rojo);
+}
+
+a:hover {
+  color: var(--rojo);
+}
+
+.nav-background {
+background-color: var(--naranja);
+}
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  box-shadow: none;
+
+  }
+
+  .nav-link-custom {
+    font-size: 0.7rem;
+    font-family: var(--messina);
+    letter-spacing: 0.5px;
+    color: #222;
+    border: #000;
+    padding-left: 13px !important;
+    padding-right: 13px !important;
+    background-color: var(--crema);
+  }
+  .nav-link-custom:hover {
+    color: var(--naranja) !important;
+  }
+
+  .nav-link-custom:focus {
+    color: var(--naranja) !important;
+  }
+  .dropdown-menu {
+    position: relative;
+    top: 100%;
+    background-color: var(--crema); 
+    border: 2px solid;
+    border-radius: 0;
+    }
+
+    .dropdown-collapse {
+      text-transform: uppercase;
+      font-size: 0.700rem;
+    }
+
+    .dropdown-collapse:hover{
+      background-color: var(--naranja);
+    }
+
+    .navbar .dropdown-menu a {
+      font-size: 0.75rem;
+      font-family: var(--messina);
+      color: #222;
+      text-transform: uppercase;
+
+      span {
+        color: var(--rojo);
+      }
+    }
+
+    .navbar .dropdown-menu a:hover, .navbar .dropdown-menu a:focus {
+      color: var(--naranja);
+      background-color: var(--crema);
+    }
+
+    .dropdown-divider {
+      height: 0;
+      margin: 0;
+      overflow: hidden;
+      border-top: 1px solid #222;
+  }
+  
+
+
+  .accordion-item {
+    background-color: transparent;
+}
+
+.accordion-button {
+ 
+  color: #000;
+  text-align: left;
+  background-color: var(--crema);
+  font-family: var(--messina);
+  font-size: .750rem;
+}
+
+.accordion-body {
+  color: #f1efe3;
+  font-size: .950rem;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #000;
+  background-color: #f1efe3;
+}
+
+
+  .CapInicial {
+    font-size: 4.5rem;
+      color: var(--naranja);
+      float: left;
+      vertical-align: middle;
+      padding: 0.65rem 0.65rem 0.65rem 0.65rem;
+      padding-top: 1rem;
+      font-family: var(--tisa);
+      font-weight: 900;
+      margin-right: 0.5rem;
+      line-height: 2.25rem;
+  }
+
+
+  h3 {
+    font-family: var(--tisa);
+    color: var(--crema);
+    text-transform: none;
+    font-size: 1.5rem;
+    letter-spacing: 0px;
+  }
+
+
+.introduccion {
+    height: 100vh;
+    width: 100%;
+     align-items: center;
+    justify-content: center;
+
+}
+
+#introduccion {
+
+  .destacadoTexto {
+    font-size: 1.25rem;
+    line-height: normal;
+    text-align: left;
+    /*
+    max-width: 800px;*/
+    text-transform: uppercase;
+    font-family: var(--new-reason);
+    font-weight: 900;
+  }
+
+}
+
+
+  .autores {
+    font-family: var(--tisa);
+    font-style: italic;
+    font-size: 0.750rem;
+    color:var(--morado);
+    text-align: left;
+
+    span {
+      font-family: var(--messina);
+      font-size: 0.850rem;
+      font-weight: bold;
+      font-style: normal;
+
+      text-transform: uppercase;
+
+    }
+  }
+
+  
+  main {
+   background-color: var(--negro);
+  height: 100%; 
+
+
+    p{
+      color: var(--crema);
+    }
+
+    h2{
+      color: var(--rojo);
+      text-align: center;
+    }
+
+    h3{
+      color: var(--crema);
+      font-size: 2rem !important;
+      text-align: center;
+      font-family: var(--messina);
+      font-weight: 700;
+    }
+  }
+  
+
+  .subtitulo-grafico {
+          color: var(--crema);
+      font-size: .8rem;
+      text-align: center;
+      font-family: var(--messina);
+      font-weight: 400;
+      text-transform: uppercase;
+    
+  }
+
+
+.mw6 {
+  max-width: 640px;
+}
+
+.mw8 {
+  max-width: 760px;
+}
+
+.mw12 {
+  max-width: 1200px;
+}
+
+.mw4 {
+  max-width: 410px;
+}
+
+.mw2 {
+  max-width: 260px;
+}
+
+.mw3 {
+  max-width: 310px;
+}
+
+.mw1 {
+  max-width: 100px;
+}
+
+
+
+.autohide{
+  position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1030;
+}
+
+.scrolled-down{
+  transform:translateY(-100%); transition: all 0.3s ease-in-out;
+}
+.scrolled-up{
+  transform:translateY(0); transition: all 0.3s ease-in-out;
+}
+
+@media only screen and (max-width: 640px) {
+  .aperturaNL {
+    h1 {
+      font-size: 2.250rem;
+      line-height: 2rem;
+
+      span {
+        font-size: 1.250rem;
+        line-height: normal;
+        display: block;
+        margin-top: 1rem;
+      }
+    }
+  }
+}
+
+    
+    .vega-bind-name {
+      color: var(--crema);
+    }
+
+
+    #footerCreditos {
+      p {
+        color: var(--crema);
+        font-size: 0.8rem;
+        line-height: normal;
+      }
+      h1 {
+        color: var(--crema);
+        font-size: 1rem;
+      }
+    }
+
+
+
+
+
+    #recirculacion {
+      h5 {
+        text-transform: uppercase;
+        color: var(--rojo);
+        font-weight: 100;
+        letter-spacing: 1px;
+        font-size: 0.8rem;
+      }
+      h6 {
+        color: var(--crema);
+        line-height: normal;
+      }
+      img {
+        border-radius: 10px;
+      }
+      a {
+        text-decoration: none;
+      }
+      a:hover {
+        opacity: .6;
+      }
+
+      .btn {
+        font-size: .6rem;
+      }
+
+      .btn-danger {
+        background-color: var(--rojo);
+        color: var(--crema);
+      }
+    }
+
+    .btn {
+      font-size: .6rem;
+    }
+
+    .btn-danger {
+      background-color: var(--rojo);
+      color: var(--crema);
+    }
+
+
+
+  
+    
+
+
+
+#preIntro {
+  
+  .frase {
+    font-size: 2.5rem;
+    line-height: 110%;
+    font-weight: 600;
+    animation: fadeIn 3s;
+    color: var(--crema);
+    filter: drop-shadow(0 0 1rem black);
+  }
+  .destacada {
+    font-family: var(--ivy-display);
+    font-weight: 700;
+    font-style: italic;
+    color: var(--naranja);
+    animation: fadeIn 4s;
+  }
+  .word {
+    transform: translateY(115px);
+    transition: transform .5s;
+  }
+
+  .scroll {
+    color: var(--crema);
+    text-transform: uppercase;
+    font-size: .650rem;
+    font-family: var(--mono);
+    animation: fadeIn 4s;
+  }
+
+}
+
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+
+
+/*
+Mapas Vega
+*/
+/* = = Vega-Lite Charts = = */
+.vega-embed {
+  width: 100%;
+  display: flex;
+}
+
+.vega-embed details,
+.vega-embed details summary {
+  position: relative;
+}
+
+.vega-bind {
+  font-weight: 300;
+  color: #F1EFE3;
+}
+/* - Tooltips - */
+#vg-tooltip-element {
+  max-width: 200px;
+}
+
+
+/*
+Mapas Vega
+*/
+
+
+#investigacion {
+  hr {
+    color: var(--naranja);
+    opacity: .8;
+  }
+}
+
+.citas {
+  border-radius: 15px;
+}
+
+
+
+/*
+Mapa
+*/
+
+#map {
+  position:-webkit-sticky;
+position:sticky;
+top:0;
+width:100%;
+height:100vh;
+}
+#header {
+  margin: auto;
+  width: 100%;
+  position: relative;
+  z-index: 5;
+}
+#header h1, #header h2, #header p {
+  margin: 0;
+  padding: 2vh 2vw;
+  text-align: center;
+}
+#footer {
+  width: 100%;
+  min-height: 5vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  text-align: center;
+  line-height: 25px;
+  font-size: 13px;
+  position: relative;
+  z-index: 5;
+}
+#features {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  z-index: 99;
+}
+/* Mapa de intro */
+#mapaIntro {
+
+.hidden {
+  visibility: hidden;
+}
+
+.centered {
+  width: 50vw;
+  margin: 0 auto;
+}
+
+.lefty {
+  width: 33vw;
+  margin-left: 5vw;
+}
+
+.righty {
+  width: 33vw;
+  margin-left: 62vw;
+}
+
+.fully {
+  width: 100%;
+  margin: auto;
+}
+
+.light {
+  color: #444;
+  background-color: #fafafa;
+}
+
+.dark {
+  color: #f1efe3;
+  background-color: #222;
+}
+.step p {
+  background-color: #222;
+  padding: 2rem;
+
+}
+
+.step {
+  padding-bottom: 50vh;
+  /* margin-bottom: 10vh; */
+  opacity: 1;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+.step div {
+  padding: 25px 50px;
+  line-height: 25px;
+}
+
+.step img {
+  width: 100%;
+}
+
+#rotate-mobile {
+  display: none;
+}
+
+.legend {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  color: #444;
+  background-color: #fafafa;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.10);
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  padding: 10px;
+  display: none;
+  z-index: 1;
+  max-width: 350px;
+}
+
+.legend img {
+  width: 25px;
+  margin-right: 10px;
+}
+
+.legend h3 {
+  margin: 0 0 10px;
+  font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+.legend div {
+  vertical-align: center;
+}
+
+.legend div #block {
+  display: inline-block;
+  height: 20px;
+  width: 30px;
+  margin-right: 5px;
+}
+
+.legend div #text {
+  vertical-align: top;
+}
+
+.mapboxgl-ctrl {
+  margin-right: 30px !important;
+}
+
+.mapboxgl-popup {
+  font: 12px/20px 'Montserrat', Helvetica, sans-serif;
+}
+
+@media (max-width: 750px) {
+  #features {
+      width: 90vw;
+      margin: 0 auto;
+  }
+
+  #header img {
+      width: 80vw;
+  }
+
+  #header h1 {
+      font-family: 'Roboto', 'Open Sans', 'Verdana', sans-serif;
+      font-size: 1.9rem;
+      text-transform: uppercase;
+  }
+
+  .lefty {
+      width: 90%;
+  }
+
+  .step div {
+      padding: 5px 15px;
+  }
+
+  .step div h3 {
+      font-family: 'Lora', 'Georgia', serif;
+      font-size: 1.5rem;
+      font-weight: 1000;
+  }
+
+  #footer p {
+      padding: 0;
+  }
+
+  #rotate-mobile {
+      display: inline-block;
+      margin-top: 25px;
+  }
+
+  .centered,
+  .lefty,
+  .righty,
+  .fully {
+      width: 90vw;
+      margin: 0 auto;
+  }
+}
+
+/* Fix issue on mobile browser where scroll breaks  */
+.mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan,
+.mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan .mapboxgl-canvas {
+  touch-action: unset;
+}
+
+}
+/* Mapa de intro */
+
+
+
+/*
+Mapa
+*/
+
+.h2-quote {
+  font-family: var(--ivy-display);
+  font-weight: 700;
+  font-style: italic;
+  font-size: 3.5rem;
+  color: var(--naranja);
+  @media screen and (max-width: 600px) {
+      font-size: 1.750rem;
+    }
+
+  span {
+    font-size: 1rem;
+    color: var(--crema);
+    display: block;
+    font-family: var(--messina);
+  }
+}
+
+/** Mi municipio **/
+
+
+#mi-municipio {
+  background-color: #222;
+  padding: 2rem;
+  border-radius: 10px;
+
+  h2 {
+    text-align: left;
+    font-family: var(--ivy-display);
+    font-weight: 700;
+    font-style: italic;
+    color: var(--naranja);
+    @media screen and (max-width: 600px) {
+        font-size: 1.500rem;
+      }
+  }
+  .control-label {
+    color: var(--naranja);
+  }
+
+  .selectize-input, .selectize-control.single .selectize-input.input-active {
+    background: var(--naranja);
+    cursor: text;
+    display: inline-block;
+}
+
+ .rt-td-inner {
+  color: var(--crema);
+ } 
+ .rt-pagination {
+  display: none;
+ }
+ .rt-thead {
+  display: none;
+ }
+
+ .rt-tbody {
+  background-color: transparent;
+  font-size: 1.150rem;
+  line-height: 1.550rem;
+  @media screen and (max-width: 600px) {
+      font-size: 1rem;
+    }
+ }
+
+ .selectize-input {
+  border: 0px solid #cccccc;
+}
+
+.resultados-municipios {
+color: var(--naranja);
+font-weight: 700;
+text-decoration: underline dotted #f1efe3;
+text-underline-offset: 4px;
+}
+
+.indicaciones {
+  padding: 0;
+  font-size: .950rem;
+
+  span {
+    font-family: var(--mono);
+    font-size: 0.750rem;
+    color: var(--naranja);
+    text-transform: uppercase;
+  }
+
+  a {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: .750rem;
+    text-decoration: underline dotted 3px #FF6D46;
+  }
+
+  a:hover {
+    color: var(--naranja);
+  }
+  
+}
+
+}
+
+/** Mi municipio **/
+
+.indicaciones {
+  padding: 0;
+  font-size: .950rem;
+
+  span {
+    font-family: var(--mono);
+    font-size: 0.750rem;
+    color: var(--naranja);
+    text-transform: uppercase;
+  }
+
+  a {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: .750rem;
+    text-decoration: underline dotted 3px #FF6D46;
+  }
+
+  a:hover {
+    color: var(--naranja);
+  }
+  
+}
+
+.h3-interactivo {
+  font-size: 1.250rem;
+  padding-left: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+
+  span {
+    font-weight: 300;
+    font-size: .850rem;
+  }
+
+}
+
+.vega-bindings {
+display: block !important;
+font-weight: 300;
+  color: #F1EFE3;
+  font-size: .850rem;
+}
+
+/** desplazados **/
+
+
+/** metodologia **/
+#metodologia {
+  background-color: #111;
+  font-family: var(--mono);
+  color: var(--crema);
+  a, em {
+    font-family: var(--mono);
+    font-weight: bold;
+  }
+  p, ul, ol {
+    font-size: .750rem;
+  }
+  h2 {
+    font-size: 1.250rem;
+    text-align: left;
+    color: var(--naranja);
+    padding-left: 1.1rem;
+  padding-right: 1.1rem;
+
+  }
+  h3 {
+    font-family: var(--mono);
+    font-size: .850rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 1.1rem;
+  padding-right: 1.1rem;
+  color: var(--naranja);
+  }
+  h4 {
+    font-family: var(--mono);
+    font-size: .750rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 1.1rem;
+  padding-right: 1.1rem;
+  }
+}
+/** metodologia **/
